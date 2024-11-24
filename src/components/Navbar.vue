@@ -4,15 +4,17 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <div class="flex-shrink-0 flex items-center">
-          <a href="#" class="text-3xl font-bold text-white tracking-wide">Drink Haven</a>
+          <router-link to="/" class="text-3xl font-bold text-white tracking-wide" > Drink Haven </router-link>
+
+          
         </div>
 
         <!-- Links for Larger Screens -->
         <div class="hidden md:flex space-x-8">
-          <a href="/" class="text-white hover:text-teal-200 transition duration-300">Home</a>
-          <a href="/about" class="text-white hover:text-teal-200 transition duration-300">About</a>
-          <a href="/service" class="text-white hover:text-teal-200 transition duration-300">Services</a>
-          <a href="/contact" class="text-white hover:text-teal-200 transition duration-300">Contact</a>
+          <router-link to="/" class="text-white hover:text-teal-200 transition duration-300" > Home </router-link>
+          <router-link to="/about" class="text-white hover:text-teal-200 transition duration-300" > About  </router-link>
+          <router-link to="/service" class="text-white hover:text-teal-200 transition duration-300" > Service  </router-link>
+          <router-link to="/contact" class="text-white hover:text-teal-200 transition duration-300" > Contact  </router-link>
         </div>
 
         <!-- Dropdown for Mobile -->
@@ -28,10 +30,12 @@
 
     <!-- Mobile Menu -->
     <div v-if="isOpen" class="md:hidden bg-teal-600">
-      <a href="/" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300">Home</a>
-      <a href="/about" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300">About</a>
-      <a href="/service" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300">Services</a>
-      <a href="/contact" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300">Contact</a>
+      
+      <router-link to="/" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300" > Home </router-link>
+      <router-link to="/about" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300" > About </router-link>
+      <router-link to="/service" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300" > Service </router-link>
+      <router-link to="/contact" class="block px-4 py-2 text-white hover:bg-teal-500 transition duration-300" > Contact </router-link>
+      
     </div>
   </nav>
 </template>
