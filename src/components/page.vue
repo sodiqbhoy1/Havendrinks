@@ -13,65 +13,59 @@
       </div>
     </section>
 
-    <!-- Featured Drinks Section -->
-    <section class="py-20">
-      <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-semibold text-gray-800 mb-12">Featured Drinks</h2>
-        <div class="grid md:grid-cols-3 gap-12">
-          <!-- Soft Drinks Card -->
-          <div class="p-6 bg-white shadow-lg rounded-xl transition transform hover:scale-105 hover:shadow-xl">
-            <img src="../assets/image1.jpg" alt="Soft Drinks" class="w-32 mx-auto mb-6 rounded-md shadow-md">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Soft Drinks</h3>
-            <p class="text-gray-600">Enjoy a refreshing variety of sodas, colas, and sparkling beverages.</p>
-          </div>
-          <!-- Fresh Juices Card -->
-          <div class="p-6 bg-white shadow-lg rounded-xl transition transform hover:scale-105 hover:shadow-xl">
-            <img src="../assets/image1.jpg" alt="Fresh Juices" class="w-32 mx-auto mb-6 rounded-md shadow-md">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Fresh Juices</h3>
-            <p class="text-gray-600">Indulge in our freshly squeezed juices made with natural fruits.</p>
-          </div>
-          <!-- Smoothies Card -->
-          <div class="p-6 bg-white shadow-lg rounded-xl transition transform hover:scale-105 hover:shadow-xl">
-            <img src="../assets/image3.jpg" alt="Smoothies" class="w-32 mx-auto mb-6 rounded-md shadow-md">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Smoothies</h3>
-            <p class="text-gray-600">Cool down with a blend of fruit and yogurt smoothies, perfect for any time.</p>
-          </div>
-        </div>
+<!-- Featured Drinks Section -->
+<section class="py-20">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-semibold text-gray-800 mb-12">Featured Drinks</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <!-- Soft Drinks Card -->
+      <div class="p-6 bg-white shadow-lg rounded-xl transition transform hover:scale-105 hover:shadow-xl">
+        <img src="../assets/image1.jpg" alt="Soft Drinks" class="w-32 mx-auto mb-6 rounded-md shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Soft Drinks</h3>
+        <p class="text-gray-600">Enjoy a refreshing variety of sodas, colas, and sparkling beverages.</p>
       </div>
-    </section>
-
-    <!-- Best Sellers Section -->
-    <section class="bg-gray-50 py-16">
-      <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-semibold text-gray-800 mb-12">Best Sellers</h2>
-        <div class="flex justify-center gap-8">
-          <div class="p-6 bg-white shadow-lg rounded-xl text-center transition transform hover:scale-105 hover:shadow-xl">
-            <img src="../assets/tropicalpunch.jpg" alt="Tropical Punch" class="w-32 mx-auto mb-6 rounded-md shadow-md">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tropical Punch</h3>
-            <p class="text-gray-600">$4.99 – A sweet and tangy tropical blend</p>
-            <a href="#" class="text-teal-500 font-semibold hover:underline mt-4 inline-block">Buy Now</a>
-          </div>
-          <div class="p-6 bg-white shadow-lg rounded-xl text-center transition transform hover:scale-105 hover:shadow-xl">
-            <img src="../assets/citrusfizz.jpg" alt="Citrus Fizz" class="w-32 mx-auto mb-6 rounded-md shadow-md">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Citrus Fizz</h3>
-            <p class="text-gray-600">$3.49 – A zesty citrus sparkle</p>
-            <a href="#" class="text-teal-500 font-semibold hover:underline mt-4 inline-block">Buy Now</a>
-          </div>
-          <div class="p-6 bg-white shadow-lg rounded-xl text-center transition transform hover:scale-105 hover:shadow-xl">
-            <img src="../assets/berryblast.jpg" alt="Berry Blast" class="w-32 mx-auto mb-6 rounded-md shadow-md">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Berry Blast</h3>
-            <p class="text-gray-600">$5.29 – A rich blend of fresh berries</p>
-            <a href="#" class="text-teal-500 font-semibold hover:underline mt-4 inline-block">Buy Now</a>
-          </div>
-        </div>
+      <!-- Fresh Juices Card -->
+      <div class="p-6 bg-white shadow-lg rounded-xl transition transform hover:scale-105 hover:shadow-xl">
+        <img src="../assets/image1.jpg" alt="Fresh Juices" class="w-32 mx-auto mb-6 rounded-md shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Fresh Juices</h3>
+        <p class="text-gray-600">Indulge in our freshly squeezed juices made with natural fruits.</p>
       </div>
-    </section>
+      <!-- Smoothies Card -->
+      <div class="p-6 bg-white shadow-lg rounded-xl transition transform hover:scale-105 hover:shadow-xl">
+        <img src="../assets/image3.jpg" alt="Smoothies" class="w-32 mx-auto mb-6 rounded-md shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Smoothies</h3>
+        <p class="text-gray-600">Cool down with a blend of fruit and yogurt smoothies, perfect for any time.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Call to Action Section -->
-    <section class="bg-teal-500 py-16 text-white text-center rounded-lg shadow-lg">
-      <h2 class="text-3xl font-semibold mb-6">Ready to quench your thirst?</h2>
-      <a href="#shop" class="bg-white text-teal-500 py-3 px-8 rounded-full font-semibold hover:bg-teal-200 shadow-md transition duration-300">Start Shopping</a>
-    </section>
+<!-- Best Sellers Section -->
+<section class="bg-gray-50 py-16">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-semibold text-gray-800 mb-12">Best Sellers</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="p-6 bg-white shadow-lg rounded-xl text-center transition transform hover:scale-105 hover:shadow-xl">
+        <img src="../assets/tropicalpunch.jpg" alt="Tropical Punch" class="w-32 mx-auto mb-6 rounded-md shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tropical Punch</h3>
+        <p class="text-gray-600">$4.99 – A sweet and tangy tropical blend</p>
+        <a href="#" class="text-teal-500 font-semibold hover:underline mt-4 inline-block">Buy Now</a>
+      </div>
+      <div class="p-6 bg-white shadow-lg rounded-xl text-center transition transform hover:scale-105 hover:shadow-xl">
+        <img src="../assets/citrusfizz.jpg" alt="Citrus Fizz" class="w-32 mx-auto mb-6 rounded-md shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Citrus Fizz</h3>
+        <p class="text-gray-600">$3.49 – A zesty citrus sparkle</p>
+        <a href="#" class="text-teal-500 font-semibold hover:underline mt-4 inline-block">Buy Now</a>
+      </div>
+      <div class="p-6 bg-white shadow-lg rounded-xl text-center transition transform hover:scale-105 hover:shadow-xl">
+        <img src="../assets/berryblast.jpg" alt="Berry Blast" class="w-32 mx-auto mb-6 rounded-md shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Berry Blast</h3>
+        <p class="text-gray-600">$5.29 – A rich blend of fresh berries</p>
+        <a href="#" class="text-teal-500 font-semibold hover:underline mt-4 inline-block">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Footer Section -->
 <footer class="bg-teal-500 text-white py-8 rounded-t-lg mt-12">
